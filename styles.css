@@ -117,6 +117,32 @@
     font-size: 1.25rem;
     font-weight: bold;
 }
+.flower-lover-section{
+    display: flex;
+    gap: 60px;
+    max-width: 1140px;
+    margin: 200px 150px 0px;
+}
+#badge{
+    width: 286px;
+    height: 286px;
+    margin-left: -220px;
+    margin-top: -150px;
+}
+.lover-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.lover-description{
+    font-size: 1.5rem;
+
+}
+.flower-lover-section-description{
+    margin-top: -100px;
+}
+main ul li{
+    margin-bottom: 30px;
+}
 
 
 
@@ -147,12 +173,25 @@
     .our-plants{
         width: 100%;
         text-align: center;
+        
     }
     .card-container{
         grid-template-columns: repeat(2,1fr);
         justify-content: center;
         width: 100%;
-    
+        margin-left: -40px;
+
+    }
+    .flower-lover-section{
+        flex-direction: column;
+        width: 100%;
+        margin: 16px;
+    }
+    .flower-lover-section-description{
+        text-align: left;
+    }
+    #badge{
+        display: none;
     }
     
 }
