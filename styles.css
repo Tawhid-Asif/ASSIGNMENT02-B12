@@ -24,7 +24,7 @@
 }
 .btn-primary{
     background-color: #E95A08;
-    width: 100%;
+    width: 270px;
     height: 50px;
     padding: 19px 80px;
     color: white;
@@ -188,7 +188,7 @@ main ul li{
     height: 200px;
     border-radius: 14px;
     background-image: url(assets/deal-ana.png);
-    background-repeat: no-repeat;
+    
     color: white;
     display: flex;
     flex-direction: column;
@@ -200,8 +200,7 @@ main ul li{
     width: 753px;
     height: 418px;
     border-radius: 22px;
-    background-image: url(assets/deal-zabo.png);
-    background-repeat: no-repeat;
+    background-image: url(assets/deal-zabo.png); 
     color: white;
     display: flex;
     flex-direction: column;
@@ -227,6 +226,74 @@ main ul li{
     font-weight: 500;
     color: white;
 }
+/* join section styles */
+.join-section{
+    background-image: url(assets/news-letter-bg.png);
+    max-width: 1440px;
+    height: 533px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    
+} 
+.join-title{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#email-input{
+    width: 644px;
+    height: 50px;
+}
+/* footer styles */
+.footer{
+    max-width: 1440px;
+    display: flex;
+    gap: 100px;
+     
+    margin: 50px  160px;
+}
+.footer-desc{
+    width: 360px;
+    height: 180px;
+
+}
+.footer-about{
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+}
+.about-1{
+    width: 85px;
+    height: 248px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+.about-2{
+    margin-top: 10px;
+}
+ 
+ 
+
+footer li{
+    list-style: none;
+    margin-bottom: 3px;
+
+}
+.icon{
+    display: flex;
+    gap: 24px;
+    width: 216px;
+    height: 36px;
+}
+
 
 
 
@@ -278,15 +345,15 @@ main ul li{
         display: none;
     }
     .deals-section{
-        width: 100%;
-        margin: 0 25px;
-        text-align: center;
-        padding: 15px;
+        width: 576px;
+        margin: 16px;
+         
+       
     }
     .deal-description{
-        width: 100% ;
+        
         text-align: center;
-        margin: 16px;
+         
     }
     .deal-card{
         display: flex;
@@ -317,6 +384,28 @@ main ul li{
         font-size: 1rem;
     font-weight: 500;
     color: white;
+    }
+    .join-section{
+        width: 576px;
+    }
+    #email-input{
+    width: 218px;
+    height: 50px;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 0;
+        margin-left: 4px;
+    }
+    .footer-about{
+        display:  flex;
+        flex-direction: column;
+        gap: 10px;
+    
+    }
+    .about-2{
+        margin-top: -160px;
+        margin-bottom: 20px;
     }
     
 }
